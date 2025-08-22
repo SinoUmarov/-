@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="tg">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Digital Navras — Payomi, Telegram Bots, Web & Mobile</title>
+		<meta
+			name="description"
+			content="Digital Navras: команда разработчиков из Таджикистана. Создаём сайты, мобильные приложения, Telegram‑ботов, бизнес‑аккаунты и автоматизацию. Проект Payomi — первый таджикский мессенджер."
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+			integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="./css.css" />
+	</head>
+	<body>
+
+		<header>
+			<div class="container nav">
+				<a href="#home" class="logo" aria-label="Digital Navras">
+					<span class="logo-badge"></span>
+					<span>Digital Navras</span>
+				</a>
+				<nav class="navlinks">
+					<a href="#about" class="ghost" data-i18n="nav.about">Дар бораи мо</a>
+					<a href="#projects" class="ghost" data-i18n="nav.projects">Лоиҳаҳо</a>
+					<a href="#services" class="ghost" data-i18n="nav.services"
+						>Хизматрасониҳо</a
+					>
+					<a href="#team" class="ghost" data-i18n="nav.team">Команда</a>
+					<a href="#contact" class="ghost" data-i18n="nav.contact">Контакт</a>
+				</nav>
+				<div class="row" style="align-items: center">
+					<div class="socials row">
+						<a href="#" aria-label="Instagram" title="Instagram"
+							><i class="fab fa-instagram"></i
+						></a>
+						<a href="#" aria-label="YouTube" title="YouTube"
+							><i class="fab fa-youtube"></i
+						></a>
+						<a href="#" aria-label="Telegram" title="Telegram"
+							><i class="fab fa-telegram"></i
+						></a>
+					</div>
+					<div class="lang">
+						<select id="langSelect" aria-label="Language select">
+							<option value="tg">Тоҷикӣ</option>
+							<option value="ru">Русский</option>
+							<option value="en">English</option>
+						</select>
+						<button id="themeToggle" aria-label="Toggle theme">
+							<i class="fas fa-sun"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+
+
+		<section id="home" class="hero">
+			<div class="container hero-grid">
+				<div>
+					<p class="badge" data-i18n="hero.badge">Команда аз Тоҷикистон</p>
+					<h1 class="headline" data-i18n="hero.title">
+						Digital Navras — меомӯзем, месозем, меафзорем.
+					</h1>
+					<p class="sub" data-i18n="hero.subtitle">
+						Мо месозем вебсайтҳо, барномаҳои мобилӣ, Telegram‑ботҳо,
+						автоматикунонии бизнес ва ҳоло болои <b>Payomi</b> — аввалин
+						мессенджери тоҷикӣ кор карда истодаем.
+					</p>
+					<div class="row" style="margin-top: 18px">
+						<a href="#contact" class="btn" data-i18n="hero.cta"
+							>Оғози ҳамкорӣ</a
+						>
+						<a href="#projects" class="btn secondary" data-i18n="hero.cta2"
+							>Дидани лоиҳаҳо</a
+						>
+					</div>
+				</div>
+				<div class="hero-art">
+					<div class="orb one"></div>
+					<div class="orb two"></div>
+					<div class="mock">
+						<pre class="code">// Payomi — Tajik messenger
+initProject({
+  name: "Payomi",
+  vision: "<span data-i18n='code.vision'>Мессенджери аввалини тоҷикӣ</span>",
+  stack: ["Flutter", "Node.js", "PostgreSQL", "gRPC"],
+  status: "<span data-i18n='code.status'>Дар кор</span>"
+})</pre>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="about" class="reveal">
+			<div class="container">
+				<h2 class="section-title" data-i18n="about.title">Дар бораи мо</h2>
+				<p class="section-sub" data-i18n="about.text">
+					Digital Navras — ин командаи пурқуввати мутахассисон аст: 5
+					фронтенд‑разработчик, 7 бэкенд‑разработчик, 5 Flutter‑разработчик, 4
+					дизайнер ва 1 SMM‑маркетолог. Мо равияи минималистӣ ва сифати баландро
+					пайравӣ мекунем.
+				</p>
+				<div class="cards">
+					<div class="card">
+						<h3 data-i18n="about.missionTitle">Мақсади мо</h3>
+						<p data-i18n="about.mission">
+							Бунёди экосистемаҳои рақамии зебо, зуд ва боэътимод барои
+							соҳибкорон ва стартапҳо дар Тоҷикистон ва берун аз он.
+						</p>
+					</div>
+					<div class="card">
+						<h3 data-i18n="about.valuesTitle">Арзишҳо</h3>
+						<p data-i18n="about.values">
+							Шаффофият, масъулият, амният, дизайн‑фикрронӣ ва муҳаббат ба
+							ҷузъиёт.
+						</p>
+					</div>
+					<div class="card">
+						<h3 data-i18n="about.whatTitle">Чӣ месозем</h3>
+						<p data-i18n="about.what">
+							Вебсайтҳо, барномаҳои мобилӣ, Telegram‑ботҳо, бизнес‑акаунтҳо,
+							автоматикунонии равандҳо ва дастгирии SMM.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="projects" class="reveal">
+			<div class="container">
+				<h2 class="section-title" data-i18n="projects.title">Лоиҳаҳои мо</h2>
+				<p class="section-sub" data-i18n="projects.sub">
+					Баъзе аз корҳое, ки мо бо муҳаббат анҷом додаем.
+				</p>
+
+				<div class="project" style="margin-bottom: 16px">
+					<div>
+						<span class="badge"
+							>Payomi ·
+							<span data-i18n="projects.payomi.badge">дар кор</span></span
+						>
+						<h3 style="margin: 8px 0 6px">Payomi</h3>
+						<p style="color: var(--muted)" data-i18n="projects.payomi.text">
+							Payomi — аввалин мессенджери тоҷикӣ. Мақсад: амният, суръат,
+							стикерҳо ва UI‑и пурра ба забони тоҷикӣ. Мусоидат ба
+							соҳибистиқлолии рақамии кишвар.
+						</p>
+						<div class="row" style="margin-top: 10px">
+							<span class="badge">Flutter</span>
+							<span class="badge">Node.js</span>
+							<span class="badge">PostgreSQL</span>
+						</div>
+					</div>
+					<div class="thumb">
+						<div class="rays">
+							<img src="./img1.jpg" alt="">
+						</div>
+					</div>
+				</div>
+
+				<div class="project" style="margin-bottom: 16px">
+					<div>
+						<span class="badge"
+							>Telegram ·
+							<span data-i18n="projects.trasher.badge"
+								>иштифода дар 100+ гурӯҳ</span
+							></span
+						>
+						<h3 style="margin: 8px 0 6px">TrasherBot</h3>
+						<p style="color: var(--muted)" data-i18n="projects.trasher.text">
+							Бот барои тозакунии реклама ва суханҳои қабеҳ аз гурӯҳҳо.
+							Модератсияи худкор, рӯйхати сиёҳ, филтрҳои чандзабона ва
+							репортинг.
+						</p>
+						<div class="row" style="margin-top: 10px">
+							<span class="badge">Python</span>
+							<span class="badge">aiogram</span>
+							<span class="badge">PostgreSQL</span>
+						</div>
+					</div>
+					<div class="thumb">
+						<div class="rays">
+							<img src="./img2.jpg" alt="">
+						</div>
+					</div>
+				</div>
+
+				<div class="project">
+					<div>
+						<span class="badge"
+							>Telegram ·
+							<span data-i18n="projects.premium.badge"
+								>аниматсия ва шрифтҳо</span
+							></span
+						>
+						<h3 style="margin: 8px 0 6px">Premium.tj</h3>
+						<p style="color: var(--muted)" data-i18n="projects.premium.text">
+							Боте, ки матнҳоро дар чатҳо зебо мекунад: аниматсияҳои гуногун,
+							шрифтҳои сершумор, интихоби услуб бо як фармон. Ҳамааш дар як бот.
+						</p>
+						<div class="row" style="margin-top: 10px">
+							<span class="badge">Node.js</span>
+							<span class="badge">Telegraf</span>
+							<span class="badge">Redis</span>
+						</div>
+					</div>
+					<div class="thumb">
+						<div class="rays">
+							<img src="./img3.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="services" class="reveal">
+			<div class="container">
+				<h2 class="section-title" data-i18n="services.title">Хизматрасониҳо</h2>
+				<p class="section-sub" data-i18n="services.sub">
+					Аз идеятон то нашр ва дастгирии 24/7.
+				</p>
+				<div class="cards">
+					<div class="card">
+						<h3>Web</h3>
+						<p data-i18n="services.web">
+							Сайтҳои зебо ва зуд: landing, корпоративӣ, мағоза.
+						</p>
+					</div>
+					<div class="card">
+						<h3>Mobile</h3>
+						<p data-i18n="services.mobile">
+							Flutter‑барномаҳо барои iOS/Android бо UI нозук.
+						</p>
+					</div>
+					<div class="card">
+						<h3>Telegram</h3>
+						<p data-i18n="services.tg">
+							Ботҳои интеллектуалӣ, автоматикунонӣ, пардохтҳо, webhook.
+						</p>
+					</div>
+					<div class="card">
+						<h3>Business</h3>
+						<p data-i18n="services.biz">
+							Бизнес‑акаунтҳо, CRM‑интегратсия, ҷараёнҳои худкор.
+						</p>
+					</div>
+					<div class="card">
+						<h3>Design</h3>
+						<p data-i18n="services.design">
+							UI/UX, брендинг, гайдлайни визуалӣ, иконкаҳо.
+						</p>
+					</div>
+					<div class="card">
+						<h3>SMM</h3>
+						<p data-i18n="services.smm">
+							Стратегия, контент‑план, идоракунии шабакаҳои иҷтимоӣ.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	
+		<section id="team" class="reveal">
+			<div class="container">
+				<h2 class="section-title" data-i18n="team.title">Командаи мо</h2>
+				<p class="section-sub" data-i18n="team.sub">
+					Мутахассисон бо таҷриба ва дилсӯзӣ.
+				</p>
+				<div class="stats" style="margin-bottom: 18px">
+					<div class="stat">
+						<div class="num" data-count="5">0</div>
+						<div class="label" data-i18n="team.front">Фронтенд</div>
+					</div>
+					<div class="stat">
+						<div class="num" data-count="7">0</div>
+						<div class="label" data-i18n="team.back">Бэкенд</div>
+					</div>
+					<div class="stat">
+						<div class="num" data-count="5">0</div>
+						<div class="label" data-i18n="team.flutter">Flutter</div>
+					</div>
+					<div class="stat">
+						<div class="num" data-count="4">0</div>
+						<div class="label" data-i18n="team.design">Дизайн</div>
+					</div>
+				</div>
+				<div class="team">
+					<div class="member">
+						<div class="row" style="align-items: center">
+							<div class="avatar">
+								<i class="fas fa-code" style='margin-top: 15px; margin-left: 10px; font-size:25px;'></i>
+							</div>
+							<div>
+								<b> Frontend</b>
+								<div class="muted" style="color: var(--muted)">
+									React, Vue, SSG
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="member">
+						<div class="row" style="align-items: center">
+							<div class="avatar">
+								<i class="fas fa-server" style='margin-top: 15px; margin-left: 12px; font-size:25px;'></i>
+							</div>
+							<div>
+								<b> Backend</b>
+								<div class="muted" style="color: var(--muted)">
+									Node.js, Python, Go
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="member">
+						<div class="row" style="align-items: center">
+							<div class="avatar">
+								<i class="fas fa-mobile-alt" style='margin-top: 15px; margin-left: 15px; font-size:25px;'></i>
+							</div>
+							<div>
+								<b> Flutter</b>
+								<div class="muted" style="color: var(--muted)">Dart, BLoC</div>
+							</div>
+						</div>
+					</div>
+					<div class="member">
+						<div class="row" style="align-items: center">
+							<div class="avatar">
+								<i class="fas fa-paint-brush" style='margin-top: 15px; margin-left: 12px; font-size:25px;'></i>
+							</div>
+							<div>
+								<b> Design</b>
+								<div class="muted" style="color: var(--muted)">
+									Figma, Motion
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p style="margin-top: 12px; color: var(--muted)" data-i18n="team.plus">
+					Илова бар ин, мо дорем 1 SMM‑маркетолог.
+				</p>
+			</div>
+		</section>
+
+		<section id="stats" class="reveal">
+			<div class="container">
+				<h2 class="section-title" data-i18n="stats.title">Дастовардҳо</h2>
+				<p class="section-sub" data-i18n="stats.sub">
+					Ба рақамҳо эътимод дорем.
+				</p>
+				<div class="stats">
+					<div class="stat">
+						<div class="num" data-count="2">0</div>
+						<div class="label" data-i18n="stats.bots">
+							Telegram‑ботҳои муваффақ
+						</div>
+					</div>
+					<div class="stat">
+						<div class="num" data-count="100">0</div>
+						<div class="label" data-i18n="stats.groups">
+							Гурӯҳҳое, ки TrasherBot‑ро истифода мебаранд
+						</div>
+					</div>
+					<div class="stat">
+						<div class="num" data-count="3">0</div>
+						<div class="label" data-i18n="stats.projects">Лоиҳаҳои фаъол</div>
+					</div>
+					<div class="stat">
+						<div class="num" data-count="24">0</div>
+						<div class="label" data-i18n="stats.support">Дастгирии 24/7</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="contact" class="reveal">
+			<div class="container">
+				<h2 class="section-title" data-i18n="contact.title">Контактҳо</h2>
+				<p class="section-sub" data-i18n="contact.sub">
+					Нависед, ва мо зуд ҷавоб медиҳем.
+				</p>
+				<div class="row" style="align-items: flex-start">
+					<form
+						onsubmit="event.preventDefault(); window.location.href = 'mailto:hello@digital-navras.tj?subject=Project%20Inquiry&body='+encodeURIComponent(document.getElementById('msg').value);"
+					>
+						<input type="text" placeholder="Name / Ном" required />
+						<input type="email" placeholder="Email" required />
+						<textarea id="msg" placeholder="Паёмакт"></textarea>
+						<button class="btn" type="submit" data-i18n="contact.send">
+							Фиристодан
+						</button>
+					</form>
+					<div style="flex: 1; min-width: 280px">
+						<div class="card">
+							<h3 data-i18n="contact.channels">Каналҳо</h3>
+							<p style="margin: 8px 0; color: var(--muted)">
+								Email:
+								<a href="mailto:hello@digital-navras.tj"
+									>digitalnavras@gmail.com</a
+								>
+							</p>
+							<p style="margin: 8px 0; color: var(--muted)">
+								Telegram: <a href="#">@digitalnavras</a>
+							</p>
+							<p
+								style="margin: 8px 0; color: var(--muted)"
+								data-i18n="contact.addr"
+							>
+								Ҷойгиршавӣ: Тоҷикистон
+							</p>
+						</div>
+						<div class="row" style="margin-top: 14px">
+							<a class="btn secondary" href="#projects" data-i18n="contact.view"
+								>Дидани кейсҳо</a
+							>
+							<a class="btn" href="#services" data-i18n="contact.start">Оғоз</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container row" style="justify-content: space-between">
+				<div>© <span id="year"></span> Digital Navras</div>
+				<div class="row" style="gap: 10px">
+					<a href="#about" class="ghost" data-i18n="footer.privacy"
+						>Конфиденсиалӣ</a
+					>
+					<a href="#about" class="ghost" data-i18n="footer.terms">Шартҳо</a>
+				</div>
+			</div>
+		</footer>
+
+		<script src="digital.js"></script>
+	</body>
+</html>
